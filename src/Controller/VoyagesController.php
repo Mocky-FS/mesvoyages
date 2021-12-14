@@ -13,7 +13,7 @@ use Symfony\Component\Routing\Annotation\Route;
  */
 class VoyagesController extends AbstractController {
     /**
-     * @Route("/Voyages", name="voyages")
+     * @Route("/voyages", name="voyages")
      * @return Response
      */
     public function index(): Response{
